@@ -6,7 +6,58 @@
 
 body {
     background-color: #ffbd2d;
-    font-family: Kanit;
-    text-align: center;
+    font-family: Karla;
 }
 
+header {
+    justify-content: space-between;
+}
+
+.nav-mobile {
+    display: block;
+}
+
+.nav-desktop {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+ul li {
+    padding: 5px;
+    list-style: none;
+
+}
+/* header nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    margin: 20px;
+}     */
+
+li {
+    padding: 5px;
+    float: right;
+    display: inline;
+}
+
+li a{
+    text-decoration-line: none;
+}
+
+li a:hover {
+    background-color: magenta;
+    text-decoration-line: underline;
+    color: white;
+    border-radius: 100%;
+  }
+
+  main {
+    margin-top: 60px;
+  }
+
+  .hero-section h1 {
+    font-family: Black Ops One;
+    text-align: center;
+  }
