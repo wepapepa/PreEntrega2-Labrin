@@ -5,33 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Kaytramine</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Karla:wght@400;700&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+
+    <title>KAYTRAMINÉ ON TOUR</title>
 </head>
 <body>
 
     <header class="container">
         <img class="col-sm-8 offset-sm-2 col-xl-4" src="../img/logo.png" alt="logo kaytramine">
-        
-        <nav>
+
+        <nav class="nav-mobile d-lg-none">
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
               <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="false"><a href="../index.html">Home</a></button>
-              <button class="nav-link" id="nav-amine-tab" data-bs-toggle="tab" data-bs-target="#nav-amine" type="button" role="tab" aria-controls="nav-amine" aria-selected="false"><a href="../pages/amine.html">Aminé</a></button>
-              <button class="nav-link" id="nav-kaytranada-tab" data-bs-toggle="tab" data-bs-target="#nav-kaytranada" type="button" role="tab" aria-controls="nav-kaytranada" aria-selected="false"><a href="../pages/kaytranada.html">Kaytranada</a></button>
-              <button class="nav-link active" id="nav-kaytramine-tab" data-bs-toggle="tab" data-bs-target="#nav-kaytramine" type="button" role="tab" aria-controls="nav-kaytramine" aria-selected="true"><a href="../pages/kaytramine.html">Kaytraminé</a></button>
-              <button class="nav-link" id="nav-tickets-tab" data-bs-toggle="tab" data-bs-target="#nav-tickets" type="button" role="tab" aria-controls="nav-tickets" aria-selected="false"><a href="../pages/tickets.html">Tickets</a></button>
+              <button class="nav-link active" id="nav-amine-tab" data-bs-toggle="tab" data-bs-target="#nav-amine" type="button" role="tab" aria-controls="nav-amine" aria-selected="true"><a href="./amine.html">Aminé</a></button>
+              <button class="nav-link" id="nav-kaytranada-tab" data-bs-toggle="tab" data-bs-target="#nav-kaytranada" type="button" role="tab" aria-controls="nav-kaytranada" aria-selected="false"><a href="./kaytranada.html">Kaytranada</a></button>
+              <button class="nav-link" id="nav-kaytramine-tab" data-bs-toggle="tab" data-bs-target="#nav-kaytramine" type="button" role="tab" aria-controls="nav-kaytramine" aria-selected="false"><a href="./kaytramine.html">Kaytraminé</a></button>
+              <button class="nav-link" id="nav-tickets-tab" data-bs-toggle="tab" data-bs-target="#nav-tickets" type="button" role="tab" aria-controls="nav-tickets" aria-selected="false"><a href="./tickets.html">Tickets</a></button>
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"></div>
-            <div class="tab-pane fade" id="nav-amine" role="tabpanel" aria-labelledby="nav-amine-tab" tabindex="0"></div>
+            <div class="tab-pane fade show active" id="nav-amine" role="tabpanel" aria-labelledby="nav-amine-tab" tabindex="0"></div>
             <div class="tab-pane fade" id="nav-kaytranada" role="tabpanel" aria-labelledby="nav-kaytranada-tab" tabindex="0"></div>
             <div class="tab-pane fade" id="nav-kaytramine" role="tabpanel" aria-labelledby="nav-kaytramine-tab" tabindex="0"></div>
-            <div class="tab-pane fade show active" id="nav-tickets" role="tabpanel" aria-labelledby="nav-tickets-tab" tabindex="0"></div>
+            <div class="tab-pane fade" id="nav-tickets" role="tabpanel" aria-labelledby="nav-tickets-tab" tabindex="0"></div>
             
           </div>
+
+          <nav class="nav-desktop d-none d-xl-block">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./amine.html">Aminé</a></li>
+                <li><a href="./kaytranada.html">Kaytranada</a></li>
+                <li><a href="./kaytramine.html">Kaytraminé</a></li>
+                <li><a href="./tickets.html">Tickets</a></li>
+            </ul>
+          </nav>
     </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <main>
+
+        <div class="landing container">
+          <div class="row hero-section">
+            <img class="col-sm-12 col-xl-5" src="../img/Aminé-press-photo-.jpg" alt="portada album Kaytraminé">
+            <article class="col-sm-12 col-xl-6 offset-xl-1">
+              <h1 class="display-1">AMINÉ: PORTLAND HIP HOP IS THE SHIT</h1>
+              <article>
+                <p>In 2017, Aminé had a moment: his debut album, Good For You, introduced him as a happy-go-lucky rascal, and the lead single, “Caroline,” went multi-platinum. The project he released the year after, ONEPOINTFIVE, squandered some of that good will, catering to trendy trap and straying from the outsider charms that initially made his music so interesting. On his new album, Limbo, he’s more pragmatic, suddenly concerned with crafting a sustainable legacy, and this new attitude produces the best music of his career.</p>
+              </article>
+            </article>
+            </div>
+        </div>
+    </main>
+
+  <footer>
+      <div class="bottom-icons">
+          <button class="f-btn"><a href="https://kaytramine.com/"><i class="fa-solid fa-globe"> Visit their webpage</i></a></button>
+          <button class="f-btn"><a href="https://www.youtube.com/watch?v=Fbgsu4eP59o&list=PLgmepPpw93pwMlzt09ep19Pjx5pPJwtaE&ab_channel=Amin%C3%A9"><i class="fa-brands fa-youtube"> Check out their YouTube</i></a></button>
+          <button class="f-btn"><a href="https://www.instagram.com/kaytramine/"><i class="fa-brands fa-square-instagram"> Visit their Instagram</i></a></button>
+
+      </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 </html>
