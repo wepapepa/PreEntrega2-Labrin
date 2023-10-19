@@ -17,6 +17,11 @@ header {
     display: block;
 }
 
+.nav-mobile a {
+    text-decoration-line: none;
+    color: #311431;
+}
+
 header button:hover {
     background-color: #f78ef7;
     color: #0a4608;
@@ -98,8 +103,9 @@ li a:hover {
     font-weight: 800;
   }
 
-  .cards {
+  .card {
     margin-top: 5vh;
+    display: inline-flex;
   }
 
   .card {
@@ -123,10 +129,10 @@ li a:hover {
   }
 
  .card button {
-    width: 40vw;
+    width: 60%;
     height: 5vh;
-    font-size: 1.2rem;
-    border-radius: 220px;
+    font-size: 1rem;
+    border-radius: 210px;
     border: 2px solid #311431;
     margin: 0 auto;
     background-color: #0a4608;
@@ -142,4 +148,5 @@ li a:hover {
 
   footer {
     margin-top: 8vh;
+
   }
