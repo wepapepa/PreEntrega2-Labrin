@@ -17,6 +17,12 @@ header {
     display: block;
 }
 
+header button:hover {
+    background-color: #f78ef7;
+    color: #0a4608;
+    font-weight: 800;
+}
+
 .nav-desktop {
     display: grid;
     justify-content: space-between;
@@ -26,15 +32,7 @@ header {
 ul li {
     padding: 5px;
     list-style: none;
-
 }
-/* header nav {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
-    margin: 20px;
-}     */
 
 li {
     padding: 5px;
@@ -60,4 +58,88 @@ li a:hover {
   .hero-section h1 {
     font-family: Black Ops One;
     text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .hero-section h2 {
+    text-align: center;
+    font-weight: 800;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .hero-section {
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+
+  .hero-section article p {
+    margin: 20px;
+  }
+
+  .pages {
+    margin-top: 5vh;
+    background: #f78ef7;
+    padding-top: 3vh;
+    border-radius: 20px;
+    border: #311431 2px solid;
+  }
+
+  .pages h2 {
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .pages p {
+    font-size: 1.2rem;
+    color: #311431;
+    font-weight: 800;
+  }
+
+  .cards {
+    margin-top: 5vh;
+  }
+
+  .card {
+    border: 6px solid #ffbd2d;
+    margin: 2vh 0 2vh;
+  }
+
+  .card img {
+    margin-top: 1vh;
+    width: 100%;
+  }
+
+  .text-area {
+    margin-top: 1vh;
+    text-align: center;
+  }
+
+  .card p {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+ .card button {
+    width: 40vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    border-radius: 220px;
+    border: 2px solid #311431;
+    margin: 0 auto;
+    background-color: #0a4608;
+    color: #f78ef7;
+    font-weight: 100;
+  }
+  
+ .card button:hover {
+    background-color: #f78ef7;
+    color: #0a4608;
+    font-weight: 800;
+  }
+
+  footer {
+    margin-top: 8vh;
   }
