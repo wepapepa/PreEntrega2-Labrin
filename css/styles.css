@@ -107,7 +107,7 @@ li a:hover {
     justify-content: center;
     display: inline-flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0 auto;
   }
 
  .label {
@@ -153,8 +153,12 @@ li a:hover {
     border: 2px solid #311431;
     margin: 0 auto;
     background-color: #0a4608;
-    color: #f78ef7;
     font-weight: 100;
+  }
+  .card button a {
+    text-decoration-line: none;
+    text-decoration-color: none;
+    color: #f78ef7;
   }
   
  .card button:hover {
@@ -163,11 +167,41 @@ li a:hover {
     font-weight: 800;
   }
 
-  footer {
-    margin-top: 8vh;
-    font-family: Black Ops One;
-    display: inline-flex;
-    align-items: center;
-    margin: 0 auto;
-
+  .card button a:hover {
+    color: #0a4608;
   }
+
+  footer {
+    background-color: #f78ef7;
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    margin: 30px auto 10px auto;
+    justify-content: space-evenly;
+}
+
+.f-btn {
+    background-color: #311431;
+    color: #f78ef7;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 12vh;
+    margin-top: 20px;
+}
+
+.f-btn:hover {
+    background-color: white;
+    color: #f78ef7;
+    font-weight: bold;
+
+}
+
+footer i {
+    color: #f78ef7;
+    font-family: Helvetica;
+    font-size: 1rem;
+}
+
+footer a {
+    text-decoration-line: none;
+}
