@@ -18,8 +18,7 @@
 <body>
 
     <header class="container">
-        <img class="col-sm-8 offset-sm-2 col-xl-4" src="../img/logo.png" alt="logo kaytramine">
-
+      <img class="col-sm-8 offset-sm-2 d-lg-none" src="../img/logo.png" alt="logo kaytramine">
         <nav class="nav-mobile d-lg-none">
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
               <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="false"><a href="../index.html">Home</a></button>
@@ -38,30 +37,53 @@
             
           </div>
 
-          <nav class="nav-desktop d-none d-xl-block">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./amine.html">Aminé</a></li>
-                <li><a href="./kaytranada.html">Kaytranada</a></li>
-                <li><a href="./kaytramine.html">Kaytraminé</a></li>
-                <li><a href="./tickets.html">Tickets</a></li>
-            </ul>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-xl-block">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="logo kaytramine" width="200"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/amine.html">Meet Aminé</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/kaytranada.html">Meet Kaytranada</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/kaytramine.html">Know their story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/tickets.html">Buy tickets</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </nav>
     </header>
 
     <main>
 
-        <div class="landing container">
-          <div class="row hero-section">
-            <img class="col-sm-12 col-xl-5" src="../img/Aminé-press-photo-.jpg" alt="portada album Kaytraminé">
-            <article class="col-sm-12 col-xl-6 offset-xl-1">
-              <h1 class="display-1">AMINÉ: PORTLAND HIP HOP IS THE SHIT</h1>
-              <article>
-                <p>In 2017, Aminé had a moment: his debut album, Good For You, introduced him as a happy-go-lucky rascal, and the lead single, “Caroline,” went multi-platinum. The project he released the year after, ONEPOINTFIVE, squandered some of that good will, catering to trendy trap and straying from the outsider charms that initially made his music so interesting. On his new album, Limbo, he’s more pragmatic, suddenly concerned with crafting a sustainable legacy, and this new attitude produces the best music of his career.</p>
-              </article>
-            </article>
-            </div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/a_carrusel-1.jpg" class="d-block w-100" alt="the duo at the beach">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/a_carrusel-2.jpg" class="d-block w-100" alt="photoshoot for Wonderland">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/a_carrusel-3.jpg" class="d-block w-100" alt="Cover for their feature song with amaarae">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/a_carrusel-4.jpg" class="d-block w-100" alt="Cover for their feature song with amaarae">
+          </div>
         </div>
+      </div>
 
         <div class="discography container">
 

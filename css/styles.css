@@ -94,6 +94,24 @@ li a:hover {
     margin-bottom: 2vh;
   }
 
+.text h1 {
+  color: white;
+  font-weight: 800;
+}
+
+.text p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.picture {
+  display: flex;
+}
+
+.picture img {
+  width: 40vw;
+}
+
   .discography {
     margin-top: 5vh;
   }
@@ -109,41 +127,6 @@ li a:hover {
     font-size: 1.2rem;
     margin-top: 5vh;
     font-weight: 800;
-  }
-  .pages {
-    margin-top: 5vh;
-    background: #f78ef7;
-    padding-top: 3vh;
-    border-radius: 20px;
-    border: #311431 2px solid;
-  }
-
-  .pages h2 {
-    text-align: center;
-    font-weight: 800;
-  }
-
-  .pages p {
-    font-size: 1.2rem;
-    color: #311431;
-    font-weight: 800;
-  }
-
-  .stickers {
-    justify-content: center;
-    display: inline-flex;
-    align-items: center;
-    margin-bottom: 0 auto;
-  }
-
- .label {
-    max-width: 100%;
-    height: 100%;
-  }
-
-  .sparkles {
-    max-width: 100%;
-    max-height: 100%;
   }
 
   .card {
