@@ -69,7 +69,7 @@ li a:hover {
 
   .hero-section {
     position: absolute;
-    bottom: 8px;
+    bottom: 100px;
     left: 16px;
     text-align: left;
     font-size: 1.5rem;
@@ -77,8 +77,8 @@ li a:hover {
 
   .hero-section h1 {
     background-color: white;
-    padding: 1%;
-    width: 50%;
+    padding: 1vw;
+    width: 60vw;
     font-family: Black Ops One;
     margin-top: 1vh;
     margin-bottom: 2vh;
@@ -86,15 +86,12 @@ li a:hover {
 
   .hero-section h2 {
     background-color: white;
+    width: 50vw;
     padding: 1%;
+    font-size: 3rem;
     font-weight: 800;
     margin-top: 1vh;
     margin-bottom: 2vh;
-  }
-
-  .hero-section article p {
-    margin-top: 10px;
-    font-size: 1.2rem;
   }
 
   .discography {
